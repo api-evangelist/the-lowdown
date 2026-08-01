@@ -1,7 +1,31 @@
 aid: the-lowdown
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-lowdown.png
 name: The Lowdown
-description: The Lowdown is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  The Lowdown is the UK's leading community-driven reproductive and sexual
+  health platform for women, founded in 2019 by Alice Pelton. It enables people
+  to review and research their health conditions, symptoms and medications so
+  they can make more informed decisions, starting with contraception and
+  expanding into menopause, fertility, PCOS, endometriosis, periods and weight
+  care. The platform combines scientific information with a unique dataset of
+  thousands of community reviews and hundreds of thousands of data points on
+  lived experience across dozens of contraceptive methods and brands, alongside
+  medical advice and online prescriptions. It is free to use, monetising through
+  partnerships with the NHS, women's health innovators and clinical trial
+  recruitment. The Lowdown was surfaced as a portfolio company of Speedinvest
+  and added to the API Evangelist network for enrichment; it is a consumer web
+  platform and currently exposes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/the-lowdown/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +35,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Women's Health
+- Femtech
+- Reproductive Health
+- Contraception
+- Digital Health
+- Healthcare
+- Consumer
+common:
+- type: DomainSecurity
+  url: security/the-lowdown-domain-security.yml
+- type: Website
+  url: https://thelowdown.com
+- type: Blog
+  url: https://thelowdown.com/blog
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
