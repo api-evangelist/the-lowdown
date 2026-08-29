@@ -38,6 +38,9 @@ description: >-
   and added to the API Evangelist network for enrichment; it is a consumer web
   platform and currently exposes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/the-lowdown/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The Lowdown was surfaced as a portfolio company of Speedinvest and added to the API Evangelist network for enrichment; it is a consumer web platform and currently exposes no public API or developer pr"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
